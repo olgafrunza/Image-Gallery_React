@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.container {
+  background-color: white;
+  margin: 1rem;
+  padding: 0px;
+}
+
+.imgContainer {
+  display: inline-block;
+  overflow: hidden;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.25);
+}
+
+.photographerName {
+  color: steelblue;
+  font-size: 1.3em;
+  margin-left: 0.1em;
+  padding-top: 30px;
+  padding: 0.5rem;
+}
